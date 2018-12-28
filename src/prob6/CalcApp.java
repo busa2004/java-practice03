@@ -17,7 +17,7 @@ public class CalcApp {
 			System.out.print( ">> " );
 			String expression = scanner.nextLine();
 			
-			expression.replaceAll(" ", "");
+			expression=expression.replaceAll(" ", "");
 			
 			if(expression.contains("quit")) {
 				break;
